@@ -13,6 +13,7 @@ const Navigation = () => {
         {NAV_LINKS.map(({ href, key, label }) => {
           return (
             <Link
+            target='_blank'
               href={href}
               key={key}
               className='regular-16 flex justify-center cursor-pointer pb-1.5 transition-all hover:font-bold duration-100'
