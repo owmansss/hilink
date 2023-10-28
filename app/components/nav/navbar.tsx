@@ -12,14 +12,14 @@ const Navigation = () => {
       <ul className='hidden h-full gap-12 lg:flex'>
         {NAV_LINKS.map(({ href, key, label }) => {
           return (
-            <Link
+            <a
             target='_blank'
               href={href}
               key={key}
               className='regular-16 flex justify-center cursor-pointer pb-1.5 transition-all hover:font-bold duration-100'
             >
               {label}
-            </Link>
+            </a>
           )
         })}
       </ul>
