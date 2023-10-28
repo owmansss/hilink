@@ -1,7 +1,7 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: 'https://www.facebook.com/owmansss', key: 'home', label: 'Home' },
-  { href: '/twitter.com/foosniffer', key: 'how_hilink_work', label: 'How Hilink Work?' },
+  { href: 'facebook.com', key: 'home', label: 'Home' },
+  { href: 'twitter.com', key: 'how_hilink_work', label: 'How Hilink Work?' },
   { href: 'github.com/owmansss', key: 'services', label: 'Services' },
   { href: '/', key: 'pricing ', label: 'Pricing ' },
   { href: '/', key: 'contact_us', label: 'Contact Us' },
